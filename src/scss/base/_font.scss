@@ -1,0 +1,11 @@
+@import '@fontsource/barlow';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+
+$font-body: Inter, sans-serif;
+$font-header: Barlow, sans-serif;
+
+.h {
+	font-family: $font-header;
+	// color: $primary-800;
+}

@@ -1,0 +1,18 @@
+@use "../base/" as *;
+
+.input{
+  border:1px solid transparent;
+  border-radius: $radius;
+  padding: 6px 8px;
+  min-width: 100%;
+  font-size: 18px;
+}
+
+.input{
+  background-color: rgba(232, 232, 232, 0.5);
+}
+.input:focus{
+  background-color: white;
+  box-shadow: none;
+  outline: none;
+}

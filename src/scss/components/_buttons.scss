@@ -1,0 +1,13 @@
+@use '../base' as *;
+
+.btn-primary {
+	background-color: $primary-900;
+	color: white;
+	padding-block: 6px;
+	display: block;
+	border-radius: $radius;
+	width: 100%;
+}
+.btn-primary:hover {
+	background-color: $primary-800;
+}
